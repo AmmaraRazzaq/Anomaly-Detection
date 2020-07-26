@@ -55,8 +55,8 @@ Both centralized approach and distributed approach have comparable accuracy. But
 To measure the accuracy of the algorithm, false negative ratio of the result of anomaly detection algorithm is measured. A false negative occurs when an anomalous measurement is measured as normal. False negative ratio is the ratio of false negatives to actual anomalous data. False negative ratio is measured for varying cluster widths. It becomes higher for very large and very small cluster widths. At large values of cluster width, small set of clusters are produced. And both anomalous and normal values can be included into single cluster and hence anomaly detection algorithm will not be able to detect these clusters. For smaller values of cluster widths, large numbers of clusters are produced and there is a possibility that every cluster is a singleton. Anomalous data will be distributed in smaller clusters and they will have small inter-cluster distances and anomaly detection algorithm will not detect these clusters. For a range of width between these two extremes anomaly detection algorithm detects anomalous clusters accurately. 
 
 A graph is plotted to show the variation of FNR with varying values of cluster widths for distributed and centralized case. 
-They show same accuracy for given range of cluster widths. The graph is shown in figure `fnr.png`
-![alt text](https://github.com/[AmmaraRazzaq]/[Anomaly-Detection]/blob/[master]/fnr.png?raw=true)
+They show same accuracy for given range of cluster widths. The graph is shown below.
+![alt text](https://github.com/AmmaraRazzaq/Anomaly-Detection/blob/master/fnr.png?raw=true)
 
 ## 3. Conclusion and Future Work
 In this project, an anomaly detection algorithm is implemented using fixed width clustering technique. Two approaches for anomaly detection i.e. distributed and centralized are implemented and compared with each other. This algorithm is evaluated on test data for one level hierarchy topology. 
