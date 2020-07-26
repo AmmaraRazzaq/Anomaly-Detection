@@ -56,6 +56,7 @@ To measure the accuracy of the algorithm, false negative ratio of the result of 
 
 A graph is plotted to show the variation of FNR with varying values of cluster widths for distributed and centralized case. 
 They show same accuracy for given range of cluster widths. The graph is shown in figure `fnr.png`
+![alt text](https://github.com/[AmmaraRazzaq]/[Anomaly-Detection]/blob/[master]/fnr.png?raw=true)
 
 ## 3. Conclusion and Future Work
 In this project, an anomaly detection algorithm is implemented using fixed width clustering technique. Two approaches for anomaly detection i.e. distributed and centralized are implemented and compared with each other. This algorithm is evaluated on test data for one level hierarchy topology. 
