@@ -1,5 +1,7 @@
 # Distributed Anomaly Detection in Wireless Sensor Networks
 
+##### Research Paper:     <i>Distributed Anomaly Detection in Wireless Sensor Networks</i>
+
 ## Abstract
 Wireless Sensor Networks (WSNs) are a network of sensor nodes which communicate wirelessly with each other to transmit data and perform computations on that data. 
 Sensor nodes consist of very tiny sensors which are used for several purposes like monitoring temperature, humidity and concentration of gases for 
